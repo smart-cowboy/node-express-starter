@@ -7,7 +7,7 @@ module.exports = function (err, req, res, next) {
   } else {
     res.status(500).send({
       code: 500,
-      message: 'somthing went wrong'
+      message: 'somthing went wrong on server.'
     })
   }
   console.log(err)
